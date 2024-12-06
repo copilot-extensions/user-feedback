@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "editor.action.accessibilityHelp  editor.action.toggleTabFocusMode  notification.acceptPrimaryAction  notifications.hideList  notifications.hideToasts  runCommands [.]"
+    ]
+}
