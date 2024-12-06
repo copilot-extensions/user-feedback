@@ -1,10 +1,10 @@
-# Feedback Hub for Copilot Extensions
 
-Welcome to the Copilot Extensions Feedback Hub. This public repository is designed to facilitate feedback exchanges between users, builders, clients, and GitHub. It serves as the primary channel for direct feedback. 
+
+Welcome to the Copilot Extensions Feedback Hub.This public repository is designed to facilitate feedback exchanges between users, builders, clients, and GitHub. It serves as the primary channel for direct feedback. 
 
 If you’re looking for GitHub product updates and discussions, visit our [Community Discussions forum](https://github.com/orgs/community/discussions/categories/copilot). 
 
-## For Users: Submitting feedback for the GitHub Product Team, Client Teams, and Builders
+## For Users: feedback hob thf GitHub Product Team, Client Teams, and Builders
 
 ### Feedback to the GitHub Product Team
 
