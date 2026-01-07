@@ -1,3 +1,13 @@
+⚠️ **NOTICE: Repository Archived – Copilot Extensions GitHub Apps Deprecated**
+
+As of [November 10, 2025, GitHub Copilot Extensions GitHub Apps are deprecated](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps/).
+
+This repository is now archived and no longer accepts feedback, issues, or pull requests.
+
+Thank you to everyone who contributed feedback!
+
+---
+
 # Feedback Hub for Copilot Extensions
 
 Welcome to the Copilot Extensions Feedback Hub. This public repository is designed to facilitate feedback exchanges between users, builders, clients, and GitHub. It serves as the primary channel for direct feedback. 
