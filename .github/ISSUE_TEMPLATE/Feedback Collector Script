@@ -1,0 +1,43 @@
+# Feedback Collector Script
+
+def collect_feedback():
+    """
+    Collect user feedback about an extension experience.
+    """
+    print("=== User Feedback Collector ===")
+    
+    # Collect feedback
+    experience = input("Describe your experience (what you liked and what could be improved):\n")
+    suggestions = input("Suggestions for improvement (enhancing user experience):\n")
+    screenshots = input("Provide a link or path to screenshots, if any (or type 'None'):\n")
+    additional_context = input("Add any additional relevant information or examples:\n")
+    
+    # Organize feedback
+    feedback = {
+        "Experience": experience,
+        "Suggestions": suggestions,
+        "Screenshots": screenshots,
+        "Additional Context": additional_context
+    }
+    
+    print("\n=== Thank you for your feedback! ===")
+    
+    # Display collected feedback
+    for key, value in feedback.items():
+        print(f"\n{key}:\n{value}")
+    
+    return feedback
+
+if __name__ == "__main__":
+    feedback_data = collect_feedback()
+    
+    # Optionally save feedback to a file
+    save_to_file = input("\nWould you like to save this feedback to a file? (yes/no): ").strip().lower()
+    if save_to_file == "yes":
+        filename = input("Enter the filename (default: feedback.txt): ").strip() or "feedback.txt"
+        with open(filename, "w") as file:
+            for key, value in feedback_data.items():
+                file.write(f"{key}:\n{value}\n\n")
+        print(f"Feedback saved to {filename}")
+    else:
+        print("Feedback not saved to a file.")
